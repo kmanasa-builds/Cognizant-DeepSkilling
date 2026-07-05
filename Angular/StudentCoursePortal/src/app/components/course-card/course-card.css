@@ -1,0 +1,17 @@
+.card--enrolled {
+
+  background-color: #d4edda;
+
+}
+
+.card--full {
+
+  border: 2px solid blue;
+
+}
+
+.expanded {
+
+  height: 200px;
+
+}

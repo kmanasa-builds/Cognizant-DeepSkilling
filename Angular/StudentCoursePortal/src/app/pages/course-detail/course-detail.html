@@ -1,0 +1,24 @@
+<h1>Course Details</h1>
+
+<hr>
+
+<pre>{{ course | json }}</pre>
+
+<hr>
+
+<h2>{{ course?.name }}</h2>
+
+<p>
+  Course Code :
+  {{ course?.code }}
+</p>
+
+<p>
+  Credits :
+  {{ course?.credits }}
+</p>
+
+<p>
+  Grade Status :
+  {{ course?.gradeStatus }}
+</p>

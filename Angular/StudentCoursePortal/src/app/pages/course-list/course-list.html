@@ -1,0 +1,48 @@
+<h1>Course List</h1>
+
+<hr>
+
+<div>
+
+  <input
+    type="text"
+    placeholder="Search course..."
+    [(ngModel)]="searchTerm">
+
+  <button>
+    Search
+  </button>
+
+</div>
+
+<br>
+
+<div>
+
+  <div
+    *ngFor="let course of courses$ | async; trackBy: trackByCourseId"
+    style="
+      border:1px solid gray;
+      padding:15px;
+      margin-bottom:15px;
+      cursor:pointer"
+    (click)="goToCourse(course.id)"
+  >
+
+    <h3>{{ course.name }}</h3>
+
+    <p>Code : {{ course.code }}</p>
+
+    <p>Credits : {{ course.credits }}</p>
+
+    <p>Status : {{ course.gradeStatus }}</p>
+
+  </div>
+
+</div>
+
+<hr>
+
+<p *ngIf="selectedCourseId">
+  Selected Course ID : {{ selectedCourseId }}
+</p>

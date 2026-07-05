@@ -1,0 +1,22 @@
+.ng-invalid.ng-touched{
+    border:2px solid red;
+}
+
+.ng-valid.ng-touched{
+    border:2px solid green;
+}
+
+div{
+    color:red;
+    font-size:14px;
+    margin-top:5px;
+}
+
+button{
+    margin-top:10px;
+    margin-right:10px;
+}
+
+h3{
+    margin-top:30px;
+}

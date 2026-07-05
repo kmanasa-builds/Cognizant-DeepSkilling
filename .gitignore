@@ -1,0 +1,31 @@
+# Angular
+node_modules/
+dist/
+.angular/
+
+# Java
+*.class
+*.jar
+*.war
+
+# Maven
+target/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,43 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Angular",
+      "code": "ANG101",
+      "credits": 4,
+      "gradeStatus": "passed"
+    },
+    {
+      "id": 2,
+      "name": "Java",
+      "code": "JAVA201",
+      "credits": 3,
+      "gradeStatus": "pending"
+    },
+    {
+      "id": 3,
+      "name": "Spring Boot",
+      "code": "SPR301",
+      "credits": 4,
+      "gradeStatus": "passed"
+    },
+    {
+      "id": 4,
+      "name": "SQL",
+      "code": "SQL101",
+      "credits": 2,
+      "gradeStatus": "failed"
+    },
+    {
+      "id": 5,
+      "name": "Microservices",
+      "code": "MIC401",
+      "credits": 3,
+      "gradeStatus": "pending"
+    }
+  ],
+
+  "students": [],
+
+  "enrollments": []
+}
